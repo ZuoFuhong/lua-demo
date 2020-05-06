@@ -33,7 +33,7 @@ print(package.path);
 -- local m = require("common")
 -- print(m.constant)
 
--- 加载一个模块（相对路径）
+-- 加载一个模块（相对路径），vs code的路径是 /Users/dazuo/workplace/lua-demo
 local m = require("syntax.common")
 print(m.constant)
 m.func2()

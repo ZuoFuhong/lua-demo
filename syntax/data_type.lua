@@ -30,27 +30,3 @@ print("2" + 6)
 print("name:" .. "dazuo")
 -- 使用 # 来计算字符串的长度
 print(#"age:20")
-
--- table表
-local tab1 = {}
-tab1["key"] = "value"
-key = 10
-tab1[key] = 22
-for k, v in pairs(tab1) do
-  print(k .. " : " .. v)
-end
-
--- Lua 里表的默认初始索引一般以 1 开始
--- table 不会固定长度大小，有新数据添加时 table 长度会自动增长，没初始的 table 都是 nil。
-local tab2 = {"apple", "pear", "orange", "grape"}
-print(tab2[1])
--- 指定的字符连接元素
-print(table.concat(tab2, "-"))
--- 尾部插入元素
-table.insert(tab2, "banana")
--- 移除尾部元素
-table.remove(tab2)
-
-for k, v in pairs(tab2) do
-  print(k .. " : " .. v)
-end

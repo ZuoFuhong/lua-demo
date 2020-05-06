@@ -18,6 +18,7 @@ end
 
 -- 泛型for循环
 -- ipairs是Lua提供的一个迭代器函数，用来迭代数组。
+-- 在 Lua 中迭代器是一种支持指针类型的结构，它可以遍历集合的每一个元素。
 a = {"one", "two", "three"}
 for i, v in ipairs(a) do
     print(i, v)
