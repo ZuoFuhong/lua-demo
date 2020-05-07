@@ -37,6 +37,8 @@ print(package.path);
 local m = require("syntax.common")
 print(m.constant)
 m.func2()
+-- 冒号调用
+m:func3()
 
 require("lfs")
 path=lfs.currentdir()
