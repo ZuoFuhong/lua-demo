@@ -9,6 +9,7 @@
 
 -- 初始化Table
 tab0 = {name="dazuo", age=20, 100, 200}
+tab0.age=30
 for k, v in pairs(tab0) do
   print(k .. " : " .. v)
 end
