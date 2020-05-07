@@ -13,6 +13,7 @@ for k, v in pairs(tab0) do
   print(k .. " : " .. v)
 end
 print(tab0["name"])
+print(tab0.name)
 print(tab0[1])
 
 print("----------------")
