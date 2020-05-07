@@ -7,6 +7,16 @@
   Lua table 是不固定大小的，你可以根据自己需要进行扩容。
 ]]
 
+-- 初始化Table
+tab0 = {name="dazuo", age=20, 100, 200}
+for k, v in pairs(tab0) do
+  print(k .. " : " .. v)
+end
+print(tab0["name"])
+print(tab0[1])
+
+print("----------------")
+
 local tab1 = {}
 tab1["key"] = "value"
 key = 10
